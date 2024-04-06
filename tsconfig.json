@@ -21,7 +21,9 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "allowJs": true,
+    "types": ["./src/aws-exports"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
