@@ -1,6 +1,6 @@
 {
   "auth": {
-    "amplifyapp8cec904e": {
+    "amplifyappa89d207a": {
       "customAuth": false,
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
@@ -9,42 +9,77 @@
     }
   },
   "hosting": {
+    "S3AndCloudFront": {
+      "providerPlugin": "awscloudformation",
+      "service": "S3AndCloudFront"
+    },
     "amplifyhosting": {
-      "lastPushTimeStamp": "2024-04-07T07:44:35.006Z",
       "service": "amplifyhosting",
       "type": "cicd"
     }
   },
   "parameters": {
-    "AMPLIFY_auth_amplifyapp8cec904e_nativeClientId": {
+    "AMPLIFY_auth_amplifyapp76e1cb6d_nativeClientId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "amplifyapp8cec904e"
+          "resourceName": "amplifyapp76e1cb6d"
         }
       ]
     },
-    "AMPLIFY_auth_amplifyapp8cec904e_userPoolId": {
+    "AMPLIFY_auth_amplifyapp76e1cb6d_userPoolId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "amplifyapp8cec904e"
+          "resourceName": "amplifyapp76e1cb6d"
         }
       ]
     },
-    "AMPLIFY_auth_amplifyapp8cec904e_userPoolName": {
+    "AMPLIFY_auth_amplifyapp76e1cb6d_userPoolName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "amplifyapp8cec904e"
+          "resourceName": "amplifyapp76e1cb6d"
         }
       ]
     },
-    "AMPLIFY_auth_amplifyapp8cec904e_webClientId": {
+    "AMPLIFY_auth_amplifyapp76e1cb6d_webClientId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "amplifyapp8cec904e"
+          "resourceName": "amplifyapp76e1cb6d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_amplifyappa89d207a_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "amplifyappa89d207a"
+        }
+      ]
+    },
+    "AMPLIFY_auth_amplifyappa89d207a_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "amplifyappa89d207a"
+        }
+      ]
+    },
+    "AMPLIFY_auth_amplifyappa89d207a_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "amplifyappa89d207a"
+        }
+      ]
+    },
+    "AMPLIFY_auth_amplifyappa89d207a_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "amplifyappa89d207a"
         }
       ]
     },

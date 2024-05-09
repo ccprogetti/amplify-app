@@ -12,18 +12,59 @@
       "AmplifyAppId": "d1oea1am6x38yb"
     },
     "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1oea1am6x38yb",
+          "type": "cicd"
+        }
+      },
       "auth": {
+        "amplifyappa50d87b7": {
+          "userPoolId": "us-east-1_ux4SmQ9yx",
+          "userPoolName": "amplify_backend_manager_d1oea1am6x38yb",
+          "webClientId": "p3b5l17nbosoegat9rd6a439m",
+          "nativeClientId": "p3b5l17nbosoegat9rd6a439m"
+        },
         "amplifyapp8cec904e": {
           "userPoolId": "us-east-1_RvruxEAQr",
           "userPoolName": "tsv9_userpool",
           "webClientId": "49bqkgqm4lje6bvpfq8htjnfsd",
           "nativeClientId": "49bqkgqm4lje6bvpfq8htjnfsd"
         }
-      },
+      }
+    }
+  },
+  "tsvpoc": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyapp-tsvpoc-a21c2-authRole",
+      "UnauthRoleArn": "arn:aws:iam::891377115508:role/amplify-amplifyapp-tsvpoc-a21c2-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::891377115508:role/amplify-amplifyapp-tsvpoc-a21c2-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-amplifyapp-tsvpoc-a21c2-deployment",
+      "UnauthRoleName": "amplify-amplifyapp-tsvpoc-a21c2-unauthRole",
+      "StackName": "amplify-amplifyapp-tsvpoc-a21c2",
+      "StackId": "arn:aws:cloudformation:eu-north-1:891377115508:stack/amplify-amplifyapp-tsvpoc-a21c2/0ee65b90-0dee-11ef-a879-0ef5c837dc54",
+      "AmplifyAppId": "d1bv2673mwvk76"
+    },
+    "categories": {
       "hosting": {
         "amplifyhosting": {
-          "appId": "d1oea1am6x38yb",
+          "appId": "d1bv2673mwvk76",
           "type": "cicd"
+        }
+      },
+      "auth": {
+        "amplifyapp76e1cb6d": {
+          "userPoolId": "eu-north-1_LvKO3tFA9",
+          "userPoolName": "tsv9-userpool",
+          "webClientId": "j1hafmpfe2jbfd9k771ab57ii",
+          "nativeClientId": "j1hafmpfe2jbfd9k771ab57ii"
+        },
+        "amplifyappa89d207a": {
+          "userPoolId": "eu-north-1_LvKO3tFA9",
+          "userPoolName": "tsv9-userpool",
+          "webClientId": "j1hafmpfe2jbfd9k771ab57ii",
+          "nativeClientId": "j1hafmpfe2jbfd9k771ab57ii"
         }
       }
     }

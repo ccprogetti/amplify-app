@@ -1,15 +1,14 @@
 {
   "authSelections": "userPoolOnly",
-  "resourceName": "amplifyapp8cec904e",
+  "resourceName": "amplifyappa89d207a",
   "serviceType": "imported",
-  "region": "us-east-1",
+  "region": "eu-north-1",
   "usernameAttributes": [
     "email"
   ],
   "authProvidersUserPool": [],
   "requiredAttributes": [
-    "email",
-    "nickname"
+    "email"
   ],
   "passwordPolicyMinLength": 8,
   "passwordPolicyCharacters": [
@@ -18,10 +17,7 @@
     "Requires Numbers",
     "Requires Symbols"
   ],
-  "mfaConfiguration": "ON",
-  "autoVerifiedAttributes": [
-    "email"
-  ],
+  "mfaConfiguration": "OPTIONAL",
   "mfaTypes": [
     "TOTP"
   ]
